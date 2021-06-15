@@ -13,7 +13,7 @@ interface SearchGalleryState {
   books: Book[];
 }
 
-export class SearchGallery extends React.Component<SearchGalleryProps, SearchGalleryState> {
+export cass SearchGallery extends React.Component<SearchGalleryProps, SearchGalleryState> {
   constructor(props: SearchGalleryProps) {
     super(props);
 
