@@ -1,3 +1,5 @@
+//Yaksh Kataria, 1330354
+
 import React from "react";
 
 import Brenda from "../../images/avatars/Brenda.png";

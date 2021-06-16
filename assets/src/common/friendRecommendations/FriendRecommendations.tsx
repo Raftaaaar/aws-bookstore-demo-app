@@ -1,3 +1,5 @@
+//Yaksh Kataria, 1330354
+
 import { API } from 'aws-amplify';
 import React from 'react';
 import { FriendThumb } from './FriendThumb';
