@@ -8,7 +8,7 @@ for file_path in Path('src').rglob('*.ts'):
         if(curr_file.readline().strip() != comment_match.strip()):
             error_out = str('### Comment not found at: ' + str(file_path))
             print('0')
-            sys.exit(0)
+            sys.exit(2)
 
 print('1')
 sys.exit(0)
