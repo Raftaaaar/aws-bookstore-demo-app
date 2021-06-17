@@ -27,7 +27,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@testing-library/react": "^11.2.7",
+    "jest": "^24.9.0",
+    "jest-python": "^1.0.5"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",

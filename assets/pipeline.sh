@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+npm install
+npm run build
+
 echo $(py chkComments.py)
 if [ $(py chkComments.py) = 1 ] 
 then
@@ -8,6 +11,3 @@ then
 else
     echo '### Missing comments.'
 fi
-
-#npm install
-#npm run build
