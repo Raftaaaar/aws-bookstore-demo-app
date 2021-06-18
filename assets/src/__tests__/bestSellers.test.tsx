@@ -6,10 +6,10 @@ import Bestseller from '../modules/bestSellers/BestSellers';
 
 configure({adapter: new Adapter()});
 
-test("Best Sellers heading is the correct heading.", () =>
+test('Best Sellers heading is the correct heading.', () =>
 {
     const componentToTest = shallow(<Bestseller />);        //The component to be checked.
-    const headingToTest = "Top 20 best sellers";        //The data to compare against.
+    const headingToTest = 'Top 20 best sellers';        //The data to compare against.
 
     window.alert = jest.fn(() => ({}));
 
