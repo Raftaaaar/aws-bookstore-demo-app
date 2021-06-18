@@ -1,3 +1,5 @@
+//Yaksh Kataria, 1330354
+
 import React from 'react';
 import Adapter from 'enzyme-adapter-react-16';
 import { shallow } from 'enzyme';
@@ -13,5 +15,7 @@ test('Best Sellers heading is the correct heading.', () =>
 
     window.alert = jest.fn(() => ({}));
 
+    //Open 'componentToTest' and find a 'h3' heading. Check its text to see if it the same as 'headingToTest'.
+    //Success is determined by the above line returning True.
     expect(componentToTest.find('h3').text()).toEqual(headingToTest);
 })
