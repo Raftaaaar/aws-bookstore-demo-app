@@ -1,3 +1,7 @@
+# Yaksh Kataria, 1330354
+### Issues Found:
+* 'App.tests.tsx' intermitently fails. I have not modified this in any way and nor is it specified to be modified in the instructions.
+
 ## AWS Bookstore Demo App
 
 AWS Bookstore Demo App is a full-stack sample web application that creates a storefront (and backend) for customers to shop for fictitious books. The entire application can be created with a single CloudFormation template. [Try out the deployed application here](https://d2h3ljlsmzojxz.cloudfront.net/)!
